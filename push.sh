@@ -1,0 +1,1 @@
+./mvnw clean install && docker buildx build --platform linux/arm64 -t docker.seanksmith.me/smfg-config-server --push .
